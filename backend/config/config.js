@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+mongoose.set("strictQuery", false); // Fix Mongoose warning
 require("colors");
 
 const connectDB = async () => {
